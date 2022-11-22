@@ -30,10 +30,8 @@ Array.from(rows).forEach(row => {
       setColor(row, "red");
     } else if ((currentHour < rowHour) && (currentHour > rowHour - 6)) {
       setColor(row, "green");
-    } else if ((currentHour > rowHour) && (currentHour < rowHour + 6)) {
+    } else if ((currentHour > rowHour) && (currentHour < rowHour + 9)) {
       setColor(row, "lightgrey");
-    } else {
-      setColor(row, "white");
     }
   }
 });
