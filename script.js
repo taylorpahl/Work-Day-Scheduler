@@ -106,37 +106,3 @@ $('#text4').val(b4);
 let b5 = localStorage.getItem('button5');
 $('#text5').val(b5);
 
-
-/*  $(document).ready (function () {
-    $("*[data-store]").each(function () {
-      $(this).val(localStorage.getItem("item-" + $(this).attr("data-store")));
-    });
-  
-    $("*[data-store]").on("keyup", function (itm) {
-      localStorage.setItem ("item-" + $(this).attr("data-store"), $(this).val());
-    })
-  })
-  */
-
-
-
-
-/*
-var timeBlock8 = $('#8')
-var textArea8 = $('#text8')
-
-function handleFormSubmit(event) {
-  event.preventDefault();
-
-  // select form element by its `name` attribute and get its value
-  var text = $('textarea[name="text-input"]').val();
-
-  // print to the page
-  textArea8.append('<p>' + text + '</p>');
-
-}
-
-// Create a submit event listener on the form element
-timeBlock8.on('submit', handleFormSubmit);
-
-*/
