@@ -14,7 +14,7 @@ For this project, I made a schedule planner for an average work day. By doing th
 
 ## Link
 
-
+https://taylorpahl.github.io/Work-Day-Scheduler/
 
 ## Usage
 
